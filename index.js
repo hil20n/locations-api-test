@@ -38,7 +38,7 @@ app.get("/locations/:myId([0-9]+)", (req, res) => {
   }
 });
 
-app.get("api/locations/:urlId([0-9]+)", (req, res) => {
+app.get("/locations/:urlId([0-9]+)", (req, res) => {
   const urlId = Number(req.params.urlId);
 });
 
