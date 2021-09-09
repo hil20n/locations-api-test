@@ -1,5 +1,12 @@
-GET http://localhost:8080/customers
+GET http://localhost:8080/locations/
 
-###
+####
+
+GET http://localhost:8080/locations/1
+
+####
 
 GET http://localhost:8080/index.html
+
+####
+DELETE http://localhost:8080/locations/1
